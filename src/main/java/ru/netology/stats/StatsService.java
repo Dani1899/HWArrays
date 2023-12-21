@@ -46,8 +46,8 @@ public class StatsService {
     }
 
     public int belowAverage(long[] sales) {
-        int x = averageSum(sales);
-        int average = x;
+        int average = averageSum(sales);
+
 
         int month = 0;
 
@@ -64,8 +64,8 @@ public class StatsService {
 
 
     public int AboveAverage(long[] sales) {
-        int x = averageSum(sales);
-        int average = x;
+        int average = averageSum(sales);
+
 
         int month = 0;
 
